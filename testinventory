@@ -1,0 +1,9 @@
+
+[lcl]
+127.0.0.0 ansible_connection=local
+
+[lcltest]
+127.0.1.1 ansible_connection=local
+
+[ftest1]
+192.168.152.128 ansible_connection=ssh ansible_user=ftest1 ansible_password=ftest1
