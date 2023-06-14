@@ -1,2 +1,5 @@
 ---
-  gather_facts: true
+ - name: gather only facts 
+     hosts: all
+     tasks:
+          - gather_facts: true
