@@ -1,5 +1,5 @@
 ---
  - name: gather only facts 
-     hosts: "{{ hostname_inventory }}"
+     hosts: "{{ target_host }}"
      tasks:
           - gather_facts: true
