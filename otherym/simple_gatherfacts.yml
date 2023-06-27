@@ -1,5 +1,5 @@
 ---
  - name: gather only facts 
-     hosts: labtest
-     tasks:
-          - gather_facts: true
+   hosts: labtest
+   tasks:
+       - gather_facts: true
