@@ -1,6 +1,6 @@
 ---
 - name: Ansible Variable Example Playbook
-  hosts: all
+  hosts: "ubuntu os"
   tasks: 
 
      # display os version
