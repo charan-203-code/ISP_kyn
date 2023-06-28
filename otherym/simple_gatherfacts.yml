@@ -2,4 +2,5 @@
  - name: gather only facts 
    hosts: labtest
    tasks:
-       - gather_facts: true
+       - debug:
+          var: ansible_facts
