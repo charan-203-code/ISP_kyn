@@ -1,6 +1,7 @@
 ---
 - name: Ansible Variable Example Playbook
   hosts: all
+  serial: 1
   tasks: 
 
      # display os version
